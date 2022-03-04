@@ -1,0 +1,21 @@
+# Maven的安装与配置
+
+## 下载和安装
+
+[Maven下载地址](https://maven.apache.org/download.cgi)
+
+下载后解压，然后设置环境变量即可。
+
+
+## 国内源配置
+在`/maven安装目录/confi/setting.xml`的`mirrors`节内加入阿里云的镜像配置：
+
+```xml
+<mirror>
+  <id>aliyunmaven</id>
+  <mirrorOf>central,jcenter,public,google,gradle-plugin,spring,spring-plugin,grails-core,apache snapshots</mirrorOf>
+  <name>阿里云公共仓库</name>
+  <url>https://maven.aliyun.com/repository/public</url>
+</mirror>
+
+```
