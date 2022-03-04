@@ -11,7 +11,7 @@
 示例：安装open jdk 11
 
 ```shell
-sdk install java 14.0.2-open
+sdk install java 11.0.2-open
 ```
 
 
